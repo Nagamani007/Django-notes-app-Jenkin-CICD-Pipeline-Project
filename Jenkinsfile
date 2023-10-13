@@ -4,7 +4,7 @@ pipeline{
         stage("Code"){
             steps{
                 echo "Code cloned"
-                git url:'https://github.com/sahilk30/django-notes-app.git',
+                git url:'https://github.com/Nagamani007/Django-notes-app-Jenkin-CICD-Pipeline-Project',
                 branch:'main'
             }
         }
