@@ -1,10 +1,6 @@
 pipeline{
-    agent {
-             docker {
-            image 'docker:20.10.0-dind'
-                    }
-         } 
-    stages{
+    agent any
+   stages{
         stage("Code"){
             steps{
                 echo "Code cloned"
